@@ -3,6 +3,8 @@ import { deleteDoc, doc, getDoc, setDoc } from 'firebase/firestore';
 import { StyleSheet, Text, View , Button, onPress, TextInput} from 'react-native';
 import { useState } from 'react';
 import {db} from './Home';
+
+//pull req
 export default function App() {
 
 
